@@ -1,7 +1,3 @@
-by sysfredintech
-
-March 3, 2025
-
 ### FOR TESTING PURPOSE
 
 ## Script to manage Dolibarr Docker's containers with interactive menu
