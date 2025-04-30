@@ -19,6 +19,7 @@ chmod +x managedolicontainer.sh
 - Don't use to manage existing containers
 - All datas will be stored in persistent volumes dolibarr_custom/ dolibarr_documents/ dolibarr_mariadb/ in container's name directory
 - All backups and database backups will be reachable in the backup/ and backup_db/ directoies created by the script in the working directory
+- To share backups across devices, you should use *grsync* (GUI) or *rsync* (CLI) to synchronize the backup/ and backup_db/ folders
 
 ## Possible issues due to lack of testing
 - Dolibarr image version upgraded since backup when restore or duplicate
